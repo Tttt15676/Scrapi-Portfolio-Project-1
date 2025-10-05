@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: my-strapi-project
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: DATABASE_CLIENT
+        value: sqlite
+      - key: APP_KEYS
+        generateValue: true
+      - key: API_TOKEN_SALT
+        generateValue: true
+      - key: ADMIN_JWT_SECRET
+        generateValue: true
+      - key: JWT_SECRET
+        generateValue: true
