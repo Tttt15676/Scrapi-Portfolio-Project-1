@@ -72,8 +72,7 @@ body {
     #064e31 0%,
     #0b5f3c 45%,
     #128f5f 100%
-  ) !important;
-  color: #ffffff;
+  ) color: #ffffff;
 }
 
 .hero-container {
@@ -93,10 +92,11 @@ body {
   font-weight: 600;
 }
 /* Sections */
-section {
+section:not(.hero) {
   padding: 3rem 2rem;
   max-width: 900px;
   margin: auto;
+  background: #fafafa;
 }
 
 /* Blog Preview Cards */
