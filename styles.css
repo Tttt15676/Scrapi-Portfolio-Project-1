@@ -69,9 +69,10 @@ body {
 .hero {
   background: linear-gradient(
     135deg,
-    #0b5f3c,
-    #0e7a4e
-  );
+    #064e31 0%,
+    #0b5f3c 45%,
+    #128f5f 100%
+  ) !important;
   color: #ffffff;
 }
 
