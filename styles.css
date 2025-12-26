@@ -13,30 +13,56 @@ body {
 
 /* Navigation */
 .site-header {
-  background: #111;
-  color: #fff;
-  padding: 1rem 2rem;
+  background-color: #0b5f3c; /* dark saturated green */
+  color: #ffffff;
 }
 
-.nav {
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.5rem 2rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.brand h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.brand p {
+  font-size: 0.95rem;
+  opacity: 0.9;
 }
 
 .nav ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .nav a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .nav a:hover {
   text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav ul {
+    margin-top: 1rem;
+    gap: 1rem;
+  }
 }
 
 /* Hero */
