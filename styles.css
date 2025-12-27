@@ -67,7 +67,12 @@ body {
 
 /* Hero */
 .hero {
-  background: linear-gradient(to bottom, red, blue);
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #f0fdf4 30%,
+    #22c55e 100%
+  );
 }
 
 .hero-container {
