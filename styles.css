@@ -68,11 +68,11 @@ body {
 /* Hero */
 .hero {
   background: linear-gradient(
-    180deg,
-    #166534,
-    #22c55e
+    to bottom,
+    #ffffff 0%,
+    #f0fdf4 30%,
+    #22c55e 100%
   );
-  color: white;
 }
 
 
