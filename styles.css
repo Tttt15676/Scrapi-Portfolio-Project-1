@@ -67,14 +67,8 @@ body {
 
 /* Hero */
 .hero {
-  background: linear-gradient(
-    to bottom,
-    #ffffff 0%,
-    #f0fdf4 30%,
-    #22c55e 100%
-  );
+  background: linear-gradient(to bottom, red, blue);
 }
-
 
 .hero-container {
   max-width: 900px;
