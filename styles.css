@@ -130,6 +130,28 @@ section:not(.hero) {
   color: #666;
 }
 
+/* About Section */
+.about {
+  background-color: #0b5f3c; /* same dark green as nav */
+  color: #ffffff; /* white text */
+  padding: 3rem 2rem;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.about h2 {
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+
 /* Contact */
 .contact form {
   display: flex;
