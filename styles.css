@@ -72,7 +72,8 @@ body {
     #064e31 0%,
     #0b5f3c 45%,
     #128f5f 100%
-  ) color: #ffffff;
+  );
+  color: #ffffff;
 }
 
 .hero-container {
