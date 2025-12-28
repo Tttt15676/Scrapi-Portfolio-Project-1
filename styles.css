@@ -92,7 +92,7 @@ body {
   font-weight: 600;
 }
 /* Sections */
-section:not(.hero):not(.about){
+section:not(.hero):not(.about) {
   padding: 3rem 2rem;
   max-width: 900px;
   margin: auto;
