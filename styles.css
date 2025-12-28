@@ -96,7 +96,6 @@ section:not(.hero):not(.about) {
   padding: 3rem 2rem;
   max-width: 900px;
   margin: auto;
-  background: #fafafa;
 }
 
 /* Blog Preview Cards */
@@ -131,7 +130,7 @@ section:not(.hero):not(.about) {
 }
 
 /* About Section */
-.about {
+section.about {
   min-height: 30vh;
   background-color: #0b5f3c; /* same dark green as nav */
   color: #ffffff; /* white text */
