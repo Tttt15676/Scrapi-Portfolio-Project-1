@@ -133,7 +133,7 @@ section:not(.hero) {
 /* About Section */
 .about {
   min-height: 30vh;
-  background-color: #0b5f3c; /* same dark green as nav */
+  background-color: #0b5f3c; !important;/* same dark green as nav */
   color: #ffffff; /* white text */
   padding: 3rem 2rem;
 }
